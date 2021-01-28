@@ -13,5 +13,5 @@ On Windows (make sure you have mingw and the SDL2 library files to compile this)
 g++ -std=c++11 src\game.cpp src\main.cpp -c
 g++ -o bin\Pong.exe game.o main.o -I{Path to SDL2\include} -L{Path to SDL2\lib} -Wall -lmingw32 -lSDL2main -lSDL2
 
-For Windows users, I would reccomend reading this guide before you do anything (unless you have it setup already):
+For Windows users, I would recommend reading this guide before you do anything (unless you have it setup already):
 https://www.matsson.com/prog/sdl2-mingw-w64-tutorial.php
